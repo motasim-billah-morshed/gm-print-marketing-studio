@@ -1,0 +1,1250 @@
+[
+  {
+    "id": "M01",
+    "title": "ব্যবসার প্রেক্ষাপট ও মার্কেটিং পরিকল্পনা",
+    "subs": [
+      {
+        "id": "M01.S1",
+        "title": "পণ্য, সেবা ও অফার",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "ক্যাটালগ, সক্ষমতা, অনুমোদিত মূল্য ও সেবার তথ্য নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "পণ্যকে শিল্প ও সমস্যার সঙ্গে মেলানো; অসমর্থিত দাবি চিহ্নিত করা।"
+          },
+          {
+            "id": "F3",
+            "text": "অনুমোদিত offer brief ও প্রচারযোগ্য পণ্যের তালিকা রাখা।"
+          }
+        ]
+      },
+      {
+        "id": "M01.S2",
+        "title": "ব্র্যান্ড ও ভাষা",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "লোগো, রং, লেখার ধরন, বাংলা/ইংরেজি নির্দেশনা নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "AI-এর জন্য ব্র্যান্ড নিয়ম ও নিষিদ্ধ দাবি নির্ধারণ।"
+          },
+          {
+            "id": "F3",
+            "text": "সব কনটেন্টে ব্যবহারযোগ্য অনুমোদিত brand profile প্রকাশ।"
+          }
+        ]
+      },
+      {
+        "id": "M01.S3",
+        "title": "টার্গেট ক্রেতার সংজ্ঞা",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "শিল্প, এলাকা, কোম্পানির আকার ও ক্রয়-সম্পর্কিত পদ নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "আদর্শ ক্রেতা, বাদ দেওয়ার শর্ত ও সম্ভাব্য চাহিদা নির্ধারণ।"
+          },
+          {
+            "id": "F3",
+            "text": "সংস্করণসহ target profile সেভ করে discovery ও segmentation-এ দেওয়া।"
+          }
+        ]
+      },
+      {
+        "id": "M01.S4",
+        "title": "ক্যাম্পেইন উদ্দেশ্য",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "সচেতনতা, ক্যাটালগ অনুরোধ, স্যাম্পল আগ্রহ বা inquiry লক্ষ্য নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "বাজেটসীমা, সময়সীমা ও উপযুক্ত CTA নির্ধারণ।"
+          },
+          {
+            "id": "F3",
+            "text": "অনুমোদিত campaign brief তৈরি; sales target/KPI ERP-র দায়িত্বে রাখা।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M02",
+    "title": "নিজস্ব ডেটা আপলোড ও ইমপোর্ট",
+    "subs": [
+      {
+        "id": "M02.S1",
+        "title": "Excel, CSV ও spreadsheet ইমপোর্ট",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "ফাইল আপলোড, sheet নির্বাচন ও sample preview।"
+          },
+          {
+            "id": "F2",
+            "text": "কলাম mapping, encoding, ফোনের leading zero ও প্রয়োজনীয় field যাচাই।"
+          },
+          {
+            "id": "F3",
+            "text": "valid row import; rejected row কারণসহ download এবং batch rollback সুবিধা।"
+          }
+        ]
+      },
+      {
+        "id": "M02.S2",
+        "title": "কার্ড, PDF ও ছবি থেকে OCR",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "ভিজিটিং কার্ড, স্ক্যান ও অনুমোদিত নথি গ্রহণ।"
+          },
+          {
+            "id": "F2",
+            "text": "AI/OCR দিয়ে নাম, প্রতিষ্ঠান, পদ ও যোগাযোগ বের করা; confidence দেখানো।"
+          },
+          {
+            "id": "F3",
+            "text": "মানুষের যাচাই শেষে record তৈরি; মূল নথির সঙ্গে সম্পর্ক রাখা।"
+          }
+        ]
+      },
+      {
+        "id": "M02.S3",
+        "title": "ম্যানুয়াল ও bulk entry",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "একক ফর্ম, bulk paste বা মোবাইল entry দিয়ে তথ্য নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "প্রয়োজনীয় field, বানান ও সম্ভাব্য duplicate দেখানো।"
+          },
+          {
+            "id": "F3",
+            "text": "নতুন record save অথবা অনুমোদিত existing record update।"
+          }
+        ]
+      },
+      {
+        "id": "M02.S4",
+        "title": "পুরোনো সিস্টেম ও ERP ডেটা আনা",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "অনুমোদিত API/export থেকে customer ও contact নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "external ID mapping, source priority ও সম্মতির প্রমাণ পরীক্ষা।"
+          },
+          {
+            "id": "F3",
+            "text": "incremental import ও reconciliation; existing customer আলাদা চিহ্নিত।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M03",
+    "title": "অনলাইন কোম্পানি আবিষ্কার ও enrichment",
+    "subs": [
+      {
+        "id": "M03.S1",
+        "title": "সার্চ ও কোম্পানির ওয়েবসাইট",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "টার্গেটভিত্তিক query, domain ও প্রকাশ্য source নির্বাচন।"
+          },
+          {
+            "id": "F2",
+            "text": "কোম্পানির প্রাসঙ্গিক ঠিকানা, সেবা ও business contact বের করা।"
+          },
+          {
+            "id": "F3",
+            "text": "প্রমাণের URL ও last-checked তথ্যসহ candidate record তৈরি।"
+          }
+        ]
+      },
+      {
+        "id": "M03.S2",
+        "title": "Maps, directory ও association",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "অনুমোদিত Maps/API, trade body ও directory source নির্বাচন।"
+          },
+          {
+            "id": "F2",
+            "text": "কোম্পানির পরিচয় মেলানো; উৎসের storage/attribution নিয়ম প্রয়োগ।"
+          },
+          {
+            "id": "F3",
+            "text": "রাখার অনুমতি থাকা field বা reference ID সংরক্ষণ; refresh queue তৈরি।"
+          }
+        ]
+      },
+      {
+        "id": "M03.S3",
+        "title": "সোশ্যাল উপস্থিতি অনুসন্ধান",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "Facebook, LinkedIn, YouTube ও অন্যান্য business page candidate নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "নাম, domain, ঠিকানা দিয়ে official page মিল পরীক্ষা।"
+          },
+          {
+            "id": "F3",
+            "text": "verified/possible/unverified channel link সংরক্ষণ; ব্যক্তি বা email অনুমান না করা।"
+          }
+        ]
+      },
+      {
+        "id": "M03.S4",
+        "title": "চলমান enrichment",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "অসম্পূর্ণ বা পুরোনো record-এর field নির্বাচন।"
+          },
+          {
+            "id": "F2",
+            "text": "নতুন source দিয়ে missing field ও change candidate খোঁজা।"
+          },
+          {
+            "id": "F3",
+            "text": "পরিবর্তনের diff review; অনুমোদন শেষে update ও source history রাখা।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M04",
+    "title": "ডেটার মান, পরিচয় ও যাচাই",
+    "subs": [
+      {
+        "id": "M04.S1",
+        "title": "কোম্পানি ও ব্যক্তি duplicate",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "নাম, domain, ফোন, email ও external ID তুলনা।"
+          },
+          {
+            "id": "F2",
+            "text": "exact ও fuzzy match confidence দেখানো; group/branch আলাদা রাখা।"
+          },
+          {
+            "id": "F3",
+            "text": "reviewed merge, field-level provenance এবং unmerge সুবিধা।"
+          }
+        ]
+      },
+      {
+        "id": "M04.S2",
+        "title": "যোগাযোগ যাচাই",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "ফোন country code, email syntax/domain ও URL পরীক্ষা।"
+          },
+          {
+            "id": "F2",
+            "text": "verified, unreachable, unverified অবস্থা আলাদা করা; mailbox delivery নিশ্চিত ধরে না নেওয়া।"
+          },
+          {
+            "id": "F3",
+            "text": "channel-ready status নির্ধারণ; ফোনকে স্বয়ংক্রিয় WhatsApp হিসেবে না ধরা।"
+          }
+        ]
+      },
+      {
+        "id": "M04.S3",
+        "title": "উৎস ও বিরোধ মীমাংসা",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "প্রতিটি field-এর value, উৎস ও যাচাইয়ের সময় সংগ্রহ।"
+          },
+          {
+            "id": "F2",
+            "text": "বিরোধ, stale data ও current-role uncertainty চিহ্নিত করা।"
+          },
+          {
+            "id": "F3",
+            "text": "reviewer decision ও confidenceসহ authoritative value সংরক্ষণ।"
+          }
+        ]
+      },
+      {
+        "id": "M04.S4",
+        "title": "ইমপোর্ট মান ও ব্যতিক্রম",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "batch-এর accepted/rejected/duplicate গণনা।"
+          },
+          {
+            "id": "F2",
+            "text": "ভুল field ও permission-unknown record quarantine।"
+          },
+          {
+            "id": "F3",
+            "text": "সংশোধিত record পুনঃপ্রক্রিয়া; বাতিল ডেটা প্রচার থেকে বাদ।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M05",
+    "title": "কোম্পানি ও কন্টাক্টের 360° ডেটাবেস",
+    "subs": [
+      {
+        "id": "M05.S1",
+        "title": "গ্রুপ, কোম্পানি ও শাখা",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "Company Group, Company ও Branch ID তৈরি।"
+          },
+          {
+            "id": "F2",
+            "text": "আইনি প্রতিষ্ঠান, ব্র্যান্ড ও কারখানার সম্পর্ক আলাদা করা।"
+          },
+          {
+            "id": "F3",
+            "text": "একটি profile-এ সম্পর্ক ও সংশ্লিষ্ট সব যোগাযোগ দেখানো।"
+          }
+        ]
+      },
+      {
+        "id": "M05.S2",
+        "title": "ব্যক্তি ও সিদ্ধান্তগ্রহণের ভূমিকা",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "Contact ID, পদ, বিভাগ ও public business contact রাখা।"
+          },
+          {
+            "id": "F2",
+            "text": "procurement, merchandising, management ভূমিকা ও বর্তমান সম্পর্ক যাচাই।"
+          },
+          {
+            "id": "F3",
+            "text": "role map তৈরি; বদলি/চাকরি ছেড়ে যাওয়ার ইতিহাস রাখা।"
+          }
+        ]
+      },
+      {
+        "id": "M05.S3",
+        "title": "চ্যানেল ও সম্মতি রেকর্ড",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "email, ফোন, social handle এবং opt-in evidence নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "প্রতি channel ও উদ্দেশ্য অনুযায়ী eligibility নির্ধারণ।"
+          },
+          {
+            "id": "F3",
+            "text": "opt-out/suppression তাৎক্ষণিক কার্যকর করে campaign audience-এ পাঠানো।"
+          }
+        ]
+      },
+      {
+        "id": "M05.S4",
+        "title": "সার্চ ও activity history",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "কোম্পানি, ব্যক্তি, campaign ও conversation সংযুক্ত করা।"
+          },
+          {
+            "id": "F2",
+            "text": "search, saved view, tag এবং visibility permission প্রয়োগ।"
+          },
+          {
+            "id": "F3",
+            "text": "profile থেকে interaction history, lead ও ERP reference দেখা।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M06",
+    "title": "সেগমেন্ট, অডিয়েন্স ও personalization",
+    "subs": [
+      {
+        "id": "M06.S1",
+        "title": "নিয়মভিত্তিক গ্রুপ",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "শিল্প, এলাকা, আকার, পণ্যচাহিদা ও customer status filter নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "AND/OR নিয়ম দিয়ে dynamic segment তৈরি।"
+          },
+          {
+            "id": "F3",
+            "text": "membership preview ও campaign-time audience snapshot সংরক্ষণ।"
+          }
+        ]
+      },
+      {
+        "id": "M06.S2",
+        "title": "AI সহায়ক শ্রেণিবিন্যাস",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "যাচাইকৃত company description ও category নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "AI দিয়ে সম্ভাব্য use case/চাহিদা প্রস্তাব; কারণ ও confidence দেখানো।"
+          },
+          {
+            "id": "F3",
+            "text": "মানুষের সংশোধনসহ tag সেভ; অনুমানকে নিশ্চিত তথ্য হিসেবে না রাখা।"
+          }
+        ]
+      },
+      {
+        "id": "M06.S3",
+        "title": "চ্যানেলভিত্তিক audience",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "segment-এর email/WhatsApp/social availability পড়া।"
+          },
+          {
+            "id": "F2",
+            "text": "consent, suppression, duplicate ও contact-frequency পরীক্ষা।"
+          },
+          {
+            "id": "F3",
+            "text": "প্রতি channel-এ eligible সংখ্যা ও বাদ পড়ার কারণ প্রকাশ।"
+          }
+        ]
+      },
+      {
+        "id": "M06.S4",
+        "title": "Account-based personalization",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "এক কোম্পানির প্রাসঙ্গিক একাধিক ভূমিকা ও অনুমোদিত তথ্য নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "role অনুযায়ী offer/message angle তৈরি; কোম্পানিজুড়ে frequency cap।"
+          },
+          {
+            "id": "F3",
+            "text": "personalized variable preview; missing value-তে নিরাপদ fallback।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M07",
+    "title": "AI গবেষণা, ধারণা ও কনটেন্ট পরিকল্পনা",
+    "subs": [
+      {
+        "id": "M07.S1",
+        "title": "চাহিদা ও বাজার insight",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "অনুমোদিত research, customer question ও competitor public content নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "AI দিয়ে বিষয়, সমস্যা ও content gap বিশ্লেষণ; উৎস দেখানো।"
+          },
+          {
+            "id": "F3",
+            "text": "যাচাইযোগ্য insight brief; প্রতিযোগীর অপ্রমাণিত দাবি বাদ।"
+          }
+        ]
+      },
+      {
+        "id": "M07.S2",
+        "title": "কনটেন্ট ধারণা ও angle",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "পণ্য, segment, উদ্দেশ্য ও channel brief নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "AI দিয়ে শিক্ষা, সমস্যা-সমাধান, demo, case study ও offer ধারণা তৈরি।"
+          },
+          {
+            "id": "F3",
+            "text": "নির্বাচিত ধারণা priorityসহ production queue-তে দেওয়া।"
+          }
+        ]
+      },
+      {
+        "id": "M07.S3",
+        "title": "কনটেন্ট calendar",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "campaign ও প্রয়োজনীয় format/language নির্ধারণ।"
+          },
+          {
+            "id": "F2",
+            "text": "AI দিয়ে topic sequence, দায়িত্ব ও publishing slot প্রস্তাব।"
+          },
+          {
+            "id": "F3",
+            "text": "সম্পাদিত calendar approve; সময়সূচির conflict দেখানো।"
+          }
+        ]
+      },
+      {
+        "id": "M07.S4",
+        "title": "Brief ও prompt library",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "ব্র্যান্ড, approved facts ও সফল template নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "পুনর্ব্যবহারযোগ্য prompt ও channel-specific brief তৈরি।"
+          },
+          {
+            "id": "F3",
+            "text": "versioned prompt save; ব্যবহৃত model ও input reference রাখা।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M08",
+    "title": "AI লেখা, SEO ও বহুভাষিক কনটেন্ট",
+    "subs": [
+      {
+        "id": "M08.S1",
+        "title": "বিজ্ঞাপন ও মেসেজ copy",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "approved brief, CTA ও length constraint নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "headline, caption, email subject/body, WhatsApp template draft তৈরি।"
+          },
+          {
+            "id": "F3",
+            "text": "fact, brand, link ও variable check শেষে review-ready copy।"
+          }
+        ]
+      },
+      {
+        "id": "M08.S2",
+        "title": "দীর্ঘ লেখা ও SEO",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "keyword intent, product facts ও audience question নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "blog, landing page, FAQ, metadata ও internal-link suggestion তৈরি।"
+          },
+          {
+            "id": "F3",
+            "text": "editor review ও CMS draft; search/AI answer-এ ranking নিশ্চিত দাবি নয়।"
+          }
+        ]
+      },
+      {
+        "id": "M08.S3",
+        "title": "অনুবাদ ও localization",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "source copy ও glossary নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "বাংলা/ইংরেজি অনুবাদ, tone ও আঞ্চলিক ভাষা অভিযোজন।"
+          },
+          {
+            "id": "F3",
+            "text": "অর্থ, মূল্য, একক ও CTA মিলিয়ে অনুমোদিত ভাষা সংস্করণ।"
+          }
+        ]
+      },
+      {
+        "id": "M08.S4",
+        "title": "পুনর্ব্যবহার ও variant",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "অনুমোদিত article, transcript বা পুরোনো campaign নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "সংক্ষেপ, carousel copy, email sequence ও A/B variation তৈরি।"
+          },
+          {
+            "id": "F3",
+            "text": "source linkage ও variant ID রেখে পরীক্ষার জন্য প্রস্তুত।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M09",
+    "title": "AI ছবি, ডিজাইন ও পণ্য প্রদর্শন",
+    "subs": [
+      {
+        "id": "M09.S1",
+        "title": "ইমেজ ও background generation",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "অনুমোদিত product photo, brief ও brand asset নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "AI image, background, cleanup ও retouch draft তৈরি।"
+          },
+          {
+            "id": "F3",
+            "text": "পণ্যের বাস্তব বৈশিষ্ট্য ও ভুয়া দাবি পরীক্ষা; অনুমোদিত export।"
+          }
+        ]
+      },
+      {
+        "id": "M09.S2",
+        "title": "Mockup ও product visualization",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "লোগো, artwork, label/package reference নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "প্যাকেজিং, hangtag ও print mockup তৈরি।"
+          },
+          {
+            "id": "F3",
+            "text": "illustrative mockup চিহ্নিত; বাস্তব sample হিসেবে উপস্থাপন না করা।"
+          }
+        ]
+      },
+      {
+        "id": "M09.S3",
+        "title": "Template ও bulk creative",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "অনুমোদিত design template ও product dataset নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "একাধিক পণ্য/গ্রুপের creative এবং channel size variant তৈরি।"
+          },
+          {
+            "id": "F3",
+            "text": "সব variant preview, overflow/বাংলা text check ও export।"
+          }
+        ]
+      },
+      {
+        "id": "M09.S4",
+        "title": "Design quality ও accessibility",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "draft creative ও channel requirement নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "brand color, logo, contrast, spelling ও alt-text পরীক্ষা।"
+          },
+          {
+            "id": "F3",
+            "text": "designer approval; পরিবর্তনের historyসহ final asset।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M10",
+    "title": "AI ভিডিও, অডিও ও ইন্টারঅ্যাকটিভ কনটেন্ট",
+    "subs": [
+      {
+        "id": "M10.S1",
+        "title": "Script ও storyboard",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "পণ্য demo, audience এবং duration brief নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "AI script, scene list, shot list ও storyboard draft তৈরি।"
+          },
+          {
+            "id": "F3",
+            "text": "claim ও production feasibility যাচাই করে shoot/generation brief।"
+          }
+        ]
+      },
+      {
+        "id": "M10.S2",
+        "title": "ভিডিও তৈরি ও সম্পাদনা",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "অনুমোদিত footage, ছবি ও script নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "AI-assisted scene generation, cut, resize ও short clip তৈরি।"
+          },
+          {
+            "id": "F3",
+            "text": "বাস্তব product fidelity ও দৃশ্য পরীক্ষা; channel-ready render।"
+          }
+        ]
+      },
+      {
+        "id": "M10.S3",
+        "title": "Voice, subtitle ও dubbing",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "script, ভাষা এবং অনুমোদিত voice asset নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "voiceover, transcript, caption ও dubbing তৈরি।"
+          },
+          {
+            "id": "F3",
+            "text": "উচ্চারণ ও sync review; অনুমতিহীন voice/face cloning বন্ধ।"
+          }
+        ]
+      },
+      {
+        "id": "M10.S4",
+        "title": "Interactive lead content",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "catalog, quiz, calculator বা lead magnet-এর brief নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "অনুমোদিত তথ্য দিয়ে interactive experience ও download asset তৈরি।"
+          },
+          {
+            "id": "F3",
+            "text": "calculation/content test; form, consent ও source tracking যুক্ত।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M11",
+    "title": "Asset library, review ও প্রকাশের অনুমোদন",
+    "subs": [
+      {
+        "id": "M11.S1",
+        "title": "কেন্দ্রীয় asset library",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "ছবি, ভিডিও, লেখা, font ও source file গ্রহণ।"
+          },
+          {
+            "id": "F2",
+            "text": "tag, product, language, format, usage rights ও expiry index করা।"
+          },
+          {
+            "id": "F3",
+            "text": "অনুমতি অনুযায়ী search, preview ও reuse।"
+          }
+        ]
+      },
+      {
+        "id": "M11.S2",
+        "title": "Review ও version control",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "draft এবং reviewer দায়িত্ব নির্ধারণ।"
+          },
+          {
+            "id": "F2",
+            "text": "comment, revision, approve/reject ও comparison চালানো।"
+          },
+          {
+            "id": "F3",
+            "text": "অনুমোদিত version lock; edit হলে পুনরায় approval প্রয়োজন।"
+          }
+        ]
+      },
+      {
+        "id": "M11.S3",
+        "title": "দাবি, অধিকার ও তথ্যের সুরক্ষা",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "product claim, testimonial, likeness ও licensed material পরীক্ষা।"
+          },
+          {
+            "id": "F2",
+            "text": "প্রমাণহীন দাবি, মেয়াদোত্তীর্ণ অধিকার ও ব্যক্তিগত তথ্য চিহ্নিত।"
+          },
+          {
+            "id": "F3",
+            "text": "সংশোধন বা block; review decision ও প্রমাণ সংরক্ষণ।"
+          }
+        ]
+      },
+      {
+        "id": "M11.S4",
+        "title": "প্রকাশের package",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "approved asset, copy, CTA ও destination জড়ো করা।"
+          },
+          {
+            "id": "F2",
+            "text": "channel size, link, tracking ও audience preview পরীক্ষা।"
+          },
+          {
+            "id": "F3",
+            "text": "publish-ready package তৈরি; calendar/campaign-এ হস্তান্তর।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M12",
+    "title": "চ্যানেল, ক্যাম্পেইন ও বিতরণ",
+    "subs": [
+      {
+        "id": "M12.S1",
+        "title": "Channel connection registry",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "business page, ad account, email domain ও messaging account যুক্ত করা।"
+          },
+          {
+            "id": "F2",
+            "text": "API permission, token expiry, quota ও supported action পরীক্ষা।"
+          },
+          {
+            "id": "F3",
+            "text": "Connected/Limited/Manual/Unavailable অবস্থাসহ capability registry।"
+          }
+        ]
+      },
+      {
+        "id": "M12.S2",
+        "title": "Organic, SEO ও community distribution",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "অনুমোদিত post/blog/video ও calendar নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "website, social, YouTube, business profile ও অনুমোদিত community-তে publish queue।"
+          },
+          {
+            "id": "F3",
+            "text": "published URL/status ধরে রাখা; unsupported action-এ manual task।"
+          }
+        ]
+      },
+      {
+        "id": "M12.S3",
+        "title": "Paid campaign management",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "objective, audience, creative, landing page ও budget নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "supported ad connector দিয়ে campaign draft; account approval ও tracking check।"
+          },
+          {
+            "id": "F3",
+            "text": "অনুমোদিত spend cap-এর মধ্যে launch/pause; platform result sync।"
+          }
+        ]
+      },
+      {
+        "id": "M12.S4",
+        "title": "Direct outreach ও nurture",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "eligible audience, approved email/message ও sequence নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "email, WhatsApp, SMS বা supported channel-এ schedule ও frequency cap।"
+          },
+          {
+            "id": "F3",
+            "text": "reply/opt-out/bounce-এ sequence stop; failed delivery ও retry নিয়ন্ত্রণ।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M13",
+    "title": "Lead capture ও কেন্দ্রীয় response inbox",
+    "subs": [
+      {
+        "id": "M13.S1",
+        "title": "Landing page ও form",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "offer, field, privacy notice ও CTA নির্ধারণ।"
+          },
+          {
+            "id": "F2",
+            "text": "mobile form, validation, spam protection ও attribution তৈরি।"
+          },
+          {
+            "id": "F3",
+            "text": "submission থেকে inquiry তৈরি; duplicate পরীক্ষা ও confirmation।"
+          }
+        ]
+      },
+      {
+        "id": "M13.S2",
+        "title": "Ads, chat ও social response",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "supported lead ads, website chat, inbox/comment event গ্রহণ।"
+          },
+          {
+            "id": "F2",
+            "text": "conversation thread ও identity match; অজানা identity আলাদা রাখা।"
+          },
+          {
+            "id": "F3",
+            "text": "একক inbox-এ route; মানব প্রতিনিধি নেওয়ার সহজ ব্যবস্থা।"
+          }
+        ]
+      },
+      {
+        "id": "M13.S3",
+        "title": "Email, call, event ও referral",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "email reply, অনুমতিসম্মত call note, QR/event/referral input নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "attachment scan, transcript/OCR ও source attribution।"
+          },
+          {
+            "id": "F3",
+            "text": "company/contact-এর সঙ্গে যুক্ত response; অস্পষ্ট match review queue।"
+          }
+        ]
+      },
+      {
+        "id": "M13.S4",
+        "title": "Response triage ও engagement",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "নতুন response ও relevant conversation context নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "AI দিয়ে intent, ভাষা, urgency ও suggested answer তৈরি।"
+          },
+          {
+            "id": "F3",
+            "text": "approved facts অনুযায়ী সীমিত উত্তর বা human handoff; price promise নয়।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M14",
+    "title": "AI lead qualification ও nurture সিদ্ধান্ত",
+    "subs": [
+      {
+        "id": "M14.S1",
+        "title": "চাহিদা extraction",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "message, form ও approved conversation context নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "পণ্য, পরিমাণ, সময়সীমা, লোকেশন ও contact role বের করা।"
+          },
+          {
+            "id": "F3",
+            "text": "প্রমাণের অংশসহ structured inquiry; অনুপস্থিত তথ্য unknown।"
+          }
+        ]
+      },
+      {
+        "id": "M14.S2",
+        "title": "Fit, intent ও confidence",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "target profile, inquiry ও অনুমোদিত scoring rule নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "fit ও buying intent আলাদা মূল্যায়ন; confidence ও কারণ দেখানো।"
+          },
+          {
+            "id": "F3",
+            "text": "Qualified/Needs review/Nurture/Irrelevant status; manual override history।"
+          }
+        ]
+      },
+      {
+        "id": "M14.S3",
+        "title": "Qualification conversation",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "missing প্রয়োজনীয় field ও recipient eligibility পরীক্ষা।"
+          },
+          {
+            "id": "F2",
+            "text": "চাহিদা পরিষ্কারের প্রশ্ন বা প্রাসঙ্গিক তথ্য পাঠানোর draft তৈরি।"
+          },
+          {
+            "id": "F3",
+            "text": "উত্তরের পর reassess; opt-out/negative intent-এ থামা।"
+          }
+        ]
+      },
+      {
+        "id": "M14.S4",
+        "title": "Lead readiness ও duplicate",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "qualified inquiry-র company/contact এবং existing ERP reference দেখা।"
+          },
+          {
+            "id": "F2",
+            "text": "একই inquiry deduplicate; আলাদা project/product হলে সম্পর্কিত পৃথক lead।"
+          },
+          {
+            "id": "F3",
+            "text": "handoff-ready lead package; sales assignment ERP-তে।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M15",
+    "title": "ERP handoff ও মার্কেটিং কার্যক্রম পর্যবেক্ষণ",
+    "subs": [
+      {
+        "id": "M15.S1",
+        "title": "ERP data contract",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "ERP team-এর API, required fields ও existing ID গ্রহণ।"
+          },
+          {
+            "id": "F2",
+            "text": "company/contact/lead/source/consent mapping এবং authentication নির্ধারণ।"
+          },
+          {
+            "id": "F3",
+            "text": "versioned schema ও test contract; অজানা ERP detail সিদ্ধান্ততালিকায়।"
+          }
+        ]
+      },
+      {
+        "id": "M15.S2",
+        "title": "Reliable lead transfer",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "handoff-ready lead ও unique transfer key তৈরি।"
+          },
+          {
+            "id": "F2",
+            "text": "API/webhook বা agreed import দিয়ে পাঠানো; duplicate-safe retry।"
+          },
+          {
+            "id": "F3",
+            "text": "ERP acknowledgement ও lead ID সংরক্ষণ; ব্যর্থতা manual recovery queue।"
+          }
+        ]
+      },
+      {
+        "id": "M15.S3",
+        "title": "Status feedback ও reconciliation",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "ERP-এর accepted/rejected/existing customer status গ্রহণ।"
+          },
+          {
+            "id": "F2",
+            "text": "sync mismatch ও conflict মেলানো; ERP-owned field overwrite বন্ধ।"
+          },
+          {
+            "id": "F3",
+            "text": "handoff status দেখানো; প্রয়োজনমতো marketing suppression/nurture আপডেট।"
+          }
+        ]
+      },
+      {
+        "id": "M15.S4",
+        "title": "Marketing operations ও experiment",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "delivery, spend, response, qualified lead ও transfer event নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "campaign/creative/channel comparison; attribution model ও data gap দেখানো।"
+          },
+          {
+            "id": "F3",
+            "text": "operational report/experiment result ERP-তে export; sales/KPI গণনা ERP-তে।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M16",
+    "title": "প্রশাসন, নিরাপত্তা ও AI অপারেশন",
+    "subs": [
+      {
+        "id": "M16.S1",
+        "title": "দায়িত্ব, প্রবেশাধিকার ও audit",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "user, team, workspace এবং permission নির্ধারণ।"
+          },
+          {
+            "id": "F2",
+            "text": "read/edit/export/publish/budget approval পৃথক অধিকার প্রয়োগ।"
+          },
+          {
+            "id": "F3",
+            "text": "কে কী করেছে audit log; access revoke ও data isolation পরীক্ষা।"
+          }
+        ]
+      },
+      {
+        "id": "M16.S2",
+        "title": "Consent, retention ও suppression",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "channel-purpose consent, opt-out ও source policy গ্রহণ।"
+          },
+          {
+            "id": "F2",
+            "text": "retention, deletion, permitted storage এবং suppression rule চালানো।"
+          },
+          {
+            "id": "F3",
+            "text": "ব্যক্তির অনুরোধ কার্যকর; সব queue-তে যোগাযোগ বন্ধ ও প্রমাণ রাখা।"
+          }
+        ]
+      },
+      {
+        "id": "M16.S3",
+        "title": "AI model ও খরচ নিয়ন্ত্রণ",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "text/image/video provider, data policy ও budget নির্বাচন।"
+          },
+          {
+            "id": "F2",
+            "text": "model routing, prompt version, rate limit, quality evaluation ও fallback।"
+          },
+          {
+            "id": "F3",
+            "text": "usage/cost log; confidential input masking; low-confidence output review।"
+          }
+        ]
+      },
+      {
+        "id": "M16.S4",
+        "title": "Automation reliability ও recovery",
+        "phases": [
+          {
+            "id": "F1",
+            "text": "event trigger, scheduled job এবং connector health নেওয়া।"
+          },
+          {
+            "id": "F2",
+            "text": "retry/backoff, duplicate event protection ও emergency pause প্রয়োগ।"
+          },
+          {
+            "id": "F3",
+            "text": "failure alert, restore test ও operational runbook; secrets নিরাপদ রাখা।"
+          }
+        ]
+      }
+    ]
+  }
+]
